@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+  font-family: 'Bree Serif', serif;
+}
+.jslogin {
+  border-radius: 5px;
+  margin: auto;
+  width: 280px;
+  transform: translateY(40%);
+  height: 350px;
+  border: 1px solid #4f94dc;
+  background: #4f94dc;
+  box-shadow: 0px 20px 48px -16px black;
+}
+input {
+    margin-left: 45px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc9c9;
+    background: white;
+}
+
+button {
+    margin-left: 30px;
+    padding: 5px 20px;
+    background: #693094;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    font-family: 'Bree Serif', serif;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+
+
+
+
+
+#myProgress {
+  width: 0px;
+  height: 0px;
+  background-color: #ddd;
+  position: relative;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .4s;
+  transition-timing-function: cubic-bezier(0.9, 0.03, 0.01, 0.71);
+  margin-left: 57px;
+  margin-top: 15px;
+}
+
+#myBar {
+  height: 100%;
+  border-radius: 10px;
+  background: #0e922b;
+  width: 0%;
+  transition: .4s;
+  transition-timing-function: cubic-bezier(0.9, 0.03, 0.01, 0.71);
+}
+#display {
+    position: absolute;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+span#error {
+    text-align: center;
+    display: block;
+}
